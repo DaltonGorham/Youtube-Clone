@@ -12,7 +12,7 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
 }
 
@@ -70,6 +70,13 @@ p {
   font-size: 16px;
   margin-left: 8px;
   margin-bottom: 10px;
+  cursor: pointer;
+}
+.button:hover{
+  opacity: 0.7;
+}
+.button:active{
+  opacity: 0.3;
 }
   </style>
   <body>
@@ -87,9 +94,36 @@ p {
       </div>
       <div class="profile">
         <img class="profile-picture" src="thumbnails/thumbnail-2.webp">
+        <p class="name">Mikey</p>
+        <div class="mutual-friends-row">
+          <img class="mutual-friends-picture" src="channel-pictures/dog.jpeg">
+          <p class="mutual-friends-text">3 Mutual Friends</p>
+        </div>
+        <div class="add-friend-row">
+          <button class="button">Add Friend</button>
+        </div>
       </div>
       <div class="profile">
         <img class="profile-picture" src="thumbnails/thumbnail-3.webp">
+        <p class="name">Kiley</p>
+        <div class="mutual-friends-row">
+          <img class="mutual-friends-picture" src="channel-pictures/dog.jpeg">
+          <p class="mutual-friends-text">6 Mutual Friends</p>
+      </div>
+      <div class="add-friend-row">
+        <button class="button">Add Friend</button>
+      </div>
+      </div>
+      <div class="profile">
+        <img class="profile-picture" src="channel-pictures/dog.jpeg">
+        <p class="name">Puppy</p>
+        <div class="mutual-friends-row">
+          <img class="mutual-friends-picture" src="channel-pictures/channel-6.jpeg">
+          <p class="mutual-friends-text">1 Mutual Friend</p>
+        </div>
+        <div class="add-friend-row">
+          <button class="button">Add Friend</button>
+        </div>
       </div>
     </div>
   </body>
