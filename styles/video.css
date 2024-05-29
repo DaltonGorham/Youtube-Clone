@@ -3,6 +3,27 @@
   cursor: pointer;
 }
 
+.thumbnail-row{
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time{
+  font-family: roboto, arial;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 12px;
+  right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
+
 .video-title{
   margin-top: 0;
   font-size: 14px;
@@ -15,9 +36,7 @@
   width: 40px;
   border-radius: 20px;
 }
-.thumbnail-row{
-  margin-bottom: 12px;
-}
+
 .author,
 .video-stats{
   font-size: 12px;
